@@ -1,5 +1,5 @@
 # Fawry-Task2
-`FawryTask2/
+```FawryTask2/
 │
 ├── .idea/
 ├── src/
@@ -32,4 +32,4 @@
 ├── pom.xml
 ├── README.md
 └── Class diagram.pdf
-`
+```
