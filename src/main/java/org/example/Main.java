@@ -19,7 +19,7 @@ public class Main {
         client1.displayBooks(client1.searchBooks(inventory, new SearchFilter(null, "Java", null, null, null)));
 
         System.out.println("\nSearch by author 'Mike':");
-        client1.displayBooks(client1.searchBooks(inventory, new SearchFilter(null, null, "Martin", null, null)));
+        client1.displayBooks(client1.searchBooks(inventory, new SearchFilter(null, null, "Mike", null, null)));
 
         System.out.println("\nSearch by year 2008:");
         client1.displayBooks(client1.searchBooks(inventory, new SearchFilter(null, null, null, 2008, null)));
