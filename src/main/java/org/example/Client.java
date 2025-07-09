@@ -15,6 +15,9 @@ class Client extends User {
             System.out.println("Book \"" + book.getTitle() + "\" is not purchasable.");
             return;
         }
+        if (quantity <= 0) {
+
+        }
         cart.addItem(book, quantity);
     }
 
@@ -31,6 +34,22 @@ class Client extends User {
 
             return;
         }
+
+
+        for (CartItem item : cart.getItems()) {
+            Book book = item.getBook();
+            int quantity = item.getQuantity();
+
+            if (book instanceof PaperBook) {
+                 if(item.getQuantity()>((PaperBook) book).getStock())
+                {
+                    System.out.println("Purchase failed: "+book.getTitle() +" Do Not have enough stock.");
+                     return;
+                }
+            }
+        }
+
+
 
         for (CartItem item : cart.getItems()) {
             Book book = item.getBook();
