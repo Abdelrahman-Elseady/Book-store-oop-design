@@ -1,5 +1,6 @@
 # Fawry-Task2
-```FawryTask2/
+```
+FawryTask2/
 │
 ├── .idea/
 ├── src/
@@ -31,5 +32,5 @@
 ├── .gitignore
 ├── pom.xml
 ├── README.md
-└── Class diagram.pdf
-```
+└── Class diagram.pdf```
+![img1](https://github.com/user-attachments/assets/ad0f94f4-58d4-424c-bf14-39d2efdaa23e)
