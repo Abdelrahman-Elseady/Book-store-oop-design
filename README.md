@@ -1,8 +1,8 @@
-# Fawry-Task2
+# Book Store
 
 ### Folder hierarchy 
 ```
-FawryTask2/
+Book-Store/
 │
 ├── .idea/
 ├── src/
